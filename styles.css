@@ -38,3 +38,11 @@ h2 {
 #submit {
   font-size: larger;
 }
+
+ul {
+  margin: 1rem 0 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}

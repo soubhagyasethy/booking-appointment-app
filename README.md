@@ -36,3 +36,17 @@ NOTE: Make sure that when you are storing data in the local storage the key that
 ### Output:
 
 ![alt text](image.png)
+
+- Task-3
+
+You were able to store single user's details in the local storage. But this is not scalable. Every time you add a new user, the older user gets removed. Try to solve this problem in this task.
+
+1. Make sure that you are able to store the details of multiple users in the local storage.
+
+2. Add an unordered list in the html file after the form.
+
+3. Use DOM manipulation to display on screen the users you add as a list item of this unordered list.
+
+### Output:
+
+![alt text](image-2.png)
