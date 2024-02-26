@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  /* text-align: center; */
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+#appointmentForm {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.input {
+  font-size: larger;
+  padding-bottom: 0.5rem;
+}
+
+#submit {
+  font-size: larger;
+}
