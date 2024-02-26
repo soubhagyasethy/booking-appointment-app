@@ -23,6 +23,16 @@ Username Input should be "Username"
 Email Input should be "Email"
 Phone Input should be "Phone"
 
-Output:
+### Output:
 
 ![alt text](image-1.png)
+
+- Task-2
+
+1. The form inside the index.html file is already provided by us. Your task is to store all the user details as an object inside the local storage, instead of storing them as individual fields.
+
+NOTE: Make sure that when you are storing data in the local storage the key that you use is "User Details". The key has to be "User Details" only then the test cases will pass.
+
+### Output:
+
+![alt text](image.png)

@@ -7,9 +7,17 @@ form.addEventListener("submit", function (event) {
   const email = document.getElementById("email").value;
   const phone = document.getElementById("phone").value;
 
-  localStorage.setItem("Username", username);
-  localStorage.setItem("Email", email);
-  localStorage.setItem("Phone", phone);
+  const userDetails = {
+    Username: username,
+    Email: email,
+    Phone: phone,
+  };
+
+  const userDetailsString = JSON.stringify(userDetails);
+
+  localStorage.setItem("User Details", userDetailsString);
+
+  console.log(localStorage);
 
   document.getElementById("username").value = "";
   document.getElementById("email").value = "";
